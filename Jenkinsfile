@@ -3,7 +3,13 @@ pipeline {
     stages {
         stage('Deploy - Development') {
             steps {
-                 echo "the url testt"
+                 echo "Development"
+               
+             }
+        }
+        stage('Deploy - staging') {
+            steps {
+                 echo "Satging"
                
              }
         }
